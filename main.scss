@@ -16,8 +16,8 @@
 
 	.guilds_c48ade {
 		transform-origin: top left;
-		transform: rotate(-90deg);
-		flex-grow: 1 !important;
+		rotate: -90deg;
+		height: 100vw !important;
 		bottom: unset;
 		position: absolute !important;
 		left: 0;
@@ -28,12 +28,11 @@
 	}
 
 	.wrapper_cc5dd2 {
-		transform: rotate(90deg); /* Використовуємо transform замість rotate */
+		rotate: 90deg;
 	}
 
 	.itemsContainer_ef3116,
 	.stack_dbd263 {
-		flex-direction: var(--HSL-server-direction);
 		justify-content: var(--HSL-server-alignment);
 	}
 
@@ -49,12 +48,13 @@
 
 // BetterFolders - Vencord
 .container_c48ade > div[style]:not(.base_c48ade) {
-	/* Тут ми також прибираємо absolute та width, бо вони заважають */
+	width: 100vw !important;
 	height: var(--serverlist-offset) !important;
+	position: absolute;
 	top: calc(var(--serverlist-offset) + var(--custom-app-top-bar-height));
 	pointer-events: none;
 	z-index: 1;
-	
+
 	.guilds_c48ade {
 		pointer-events: all;
 	}
