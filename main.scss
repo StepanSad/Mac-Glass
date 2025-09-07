@@ -15,11 +15,11 @@
 	}
 
 	.guilds_c48ade {
-		/* Ми прибираємо absolute та height: 100vw, бо вони заважають */
 		transform-origin: top left;
-		transform: rotate(-90deg); /* Використовуємо transform замість rotate */
-		flex-grow: 1; /* Даємо йому розтягуватися */
+		transform: rotate(-90deg);
+		flex-grow: 1 !important;
 		bottom: unset;
+		position: absolute !important;
 		left: 0;
 	}
 
