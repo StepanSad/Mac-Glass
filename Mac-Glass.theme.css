@@ -5,7 +5,7 @@
  * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
  * @source https://github.com/StepanSad/Mac-Glass
  * @invite DMntv6qjeg
- * @donate https://send.monobank.ua/jar/72kYDSED69
+ * @donate
  * @authorId 492673578479779840
  * @website
 */
@@ -13,12 +13,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;300;400;500;700&display=swap');
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 @import url('https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css');
-@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css');
 
 :root {
   --font: 'Google Sans';
   --background-image: url('https://i.postimg.cc/Ch647sp0/Catalina-4.jpg');
-  --background-image-blur: 2px;
+  --background-image-blur:5px;
   --background-image-size: cover;
   --background-image-position: center;
   --popout-modal-image: var(--background-image);
@@ -34,17 +34,41 @@
   --popout-modal-brightness: 0.56;
   --gradient-primary: 40,153,167;
   --gradient-secondary: 38,219,45;
-  --link-colour: #00FF0A;
-  --scrollbar-colour: rgb(17,255,0,0.05);
+  --link-colour: #c2ffc4;
+  --scrollbar-colour: rgba(255, 255, 255, 0.652);
   --gradient-direction: 311deg;
   --tint-colour: 87,76,82;
   --tint-brightness: 0;
-  --font: 'Google Sans';
-  --window-padding: 0px;
+  --window-padding: -1px;
   --window-roundness: 0px;
   --show-gift-gif-buttons: block;
   --update-notice-1: none;
-  --HSL-server-icon-size: 36px;
-  --HSL-server-spacing: 10px;
-  --update-notice-1: none;
+  --custom-guild-list-width: 60px;
+
+}
+
+.stack_dbd263::-webkit-scrollbar {
+  width: 5px !important; /* Робимо товщину 5 пікселів */
+}
+/* Знаходимо будь-який елемент, чий клас починається зі "scroller" */
+div[class^="scroller"]::-webkit-scrollbar {
+  width: 5px !important; /* Робимо його вужчим */
+}
+#app-mount .background_fc71d3 {
+    background-color: #0000003c;
+    backdrop-filter: blur(11px) !important;
+}
+.layer_da8173 {
+    position: fixed !important;
+    padding-top: 70px;
+    padding-left: 8px;
+}
+.container_fc71d3 {
+    border: 7px solid var(--background-base-low);
+}
+.stack_dbd263[data-direction=horizontal] {
+    flex-direction: row !important;
+}
+.leading_c38106 {
+
 }
