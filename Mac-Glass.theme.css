@@ -69,6 +69,26 @@ div[class^="scroller"]::-webkit-scrollbar {
 .stack_dbd263[data-direction=horizontal] {
     flex-direction: row !important;
 }
-.leading_c38106 {
-
+.caughtUpText_ea5470{
+  color: rgb(0, 255, 26) !important;
+}
+.message_cb862a{
+  color: rgb(255, 255, 255) !important;
+}
+.channelName_cb862a{
+  color: rgb(190, 190, 190) !important;
+}
+.caughtUpContainer_ea5470{
+  background-color: rgba(0, 255, 26, 0.202) !important;
+}
+#app-mount .guilds_c48ade [class*=circleIconButton] {
+    background: var(--foreground);
+    color: rgb(206 206 206);
+}
+.clickableContainer_ede711 {
+    position: relative !important;
+    right: 60px !important;
+}
+.caughtUpContainer_ea5470 svg[role="img"] path {
+  fill: rgb(0, 255, 26) !important;
 }
