@@ -1,7 +1,7 @@
 /**
  * @name Mac Glass
  * @author stepanaske
- * @version 3.0.0
+ * @version 4.2.0
  * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
  * @source https://github.com/StepanSad/Mac-Glass
  * @invite DMntv6qjeg
@@ -92,3 +92,4 @@ div[class^="scroller"]::-webkit-scrollbar {
 .caughtUpContainer_ea5470 svg[role="img"] path {
   fill: rgb(0, 255, 26) !important;
 }
+
