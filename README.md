@@ -1,4 +1,4 @@
-Hi Dude!
+(discontinued)
 Mac-Glass v4.0.0
 Theme For BD and Vencord (target)
 
